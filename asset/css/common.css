@@ -1,0 +1,163 @@
+@font-face{
+    font-family:"GT-America";
+    font-weight:200;
+    src:url(../font/GT-America-Standard-Light-Trial.woff2) format("woff2");
+}
+@font-face{
+    font-family:"GT-America";
+    font-weight:300;
+    src:url(../font/GT-America-Standard-Regular-Trial.woff2) format("woff2");
+}
+@font-face{
+    font-family:"GT-America";
+    font-weight:400;
+    src:url(../font/GT-America-Standard-Medium-Trial.woff2) format("woff2");
+}
+@font-face{
+    font-family:"GT-America";
+    font-weight:600;
+    src:url(../font/GT-America-Standard-Bold-Trial.woff2) format("woff2");
+}
+@font-face{
+    font-family:"Schnyder";
+    font-weight:600;
+    src:url(../font/SchnyderS-Bold-Trial.otf);
+}
+@font-face{
+    font-family:"Schnyder";
+    font-weight:300;
+    src:url(../font/SchnyderS-Light-Trial.otf);
+}
+
+
+
+
+.wrapper{
+    min-width:1024px;
+}
+
+
+
+.no-scroll{
+    overflow:hidden;
+}
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: 1px;
+}
+
+
+
+.link-pour{
+    /* top: 80px;
+    position: relative; */
+    /* border:1px solid #fff; */
+    background: #fff;
+    width: 175px;
+    height: 65px;
+    text-align:center;
+    line-height:65px;
+    font-size:16px;
+    display:block;
+    color: #1b1b1b;
+    position: relative;
+    overflow: hidden;
+    z-index:1;
+
+}
+.link-pour .ani-btn{
+    width: 100%;
+    height: 100%;
+    background: #5d5d5d;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: 300ms;
+    z-index:-1;
+}
+.link-pour:hover{
+    color: #fff;
+}
+.link-pour:hover .ani-btn{
+    left: 0;
+}
+.link-singly{
+
+    /* top: 80px; */
+    position: relative;
+    overflow: hidden;
+    display:block;
+    height: 65px;
+    line-height:65px;
+    font-size:16px;
+    width: 175px;
+    text-align:center;
+}
+.link-singly .text{
+    position: relative;
+}
+.link-singly .bar{
+    position:absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    height: 1px;
+}
+
+
+/* .link-singly .link-singly-underline{
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom:calc(50% - 16px);
+
+} */
+
+
+.disappear-animate{
+    visibility:hidden;
+    opacity: 0;
+    position: absolute;
+    top: -20px;
+}
+.disappear-animate.appear{
+    position: relative;
+    visibility:visible;
+}
+
+.top-line-link{
+    position: relative;
+}
+.top-line-link a{
+    transition:color 600ms;
+}
+.top-line-link:hover::after{
+    border-top:1px solid #fff;
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+
+}
+
+.top-line-link:hover a{
+    color: rgba(255,255,255,0.3);
+}
+
+
+.side-shortcut-hover{
+    transition:opacity 300ms;
+}
+.side-shortcut-hover:hover{
+    opacity:0.6;
+}
