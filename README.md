@@ -16,7 +16,7 @@
 
 <figure>
   <img src="https://github.com/user-attachments/assets/8e935c19-b46a-4b69-ac5e-87e76dcd6bf8">
-  <figcaption> 좌(spaceX공식 홈페이지의 모습) 우(리뉴얼한 모습)</figcaption>
+  <br><figcaption> 좌(spaceX공식 홈페이지의 모습) 우(리뉴얼한 모습)</figcaption>
 </figure>
 
 
