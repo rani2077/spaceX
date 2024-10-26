@@ -14,16 +14,10 @@
 
 ## 3. 사이트 전체 모습 비교
 
-<div style="display: flex; justify-content: space-between;">
-  <figure style="margin-right: 10px;">
-    <img src="https://github.com/user-attachments/assets/57213911-6556-4e59-907b-ef642cae7369" alt="spaceX공식 홈페이지의 모습" style="width: 100%;">
-    <figcaption>spaceX공식 홈페이지의 모습</figcaption>
-  </figure>
-  <figure>
-    <img src="https://github.com/user-attachments/assets/34235ded-dc38-4fa0-8370-1d2b2e202f92" alt="리뉴얼한 모습" style="width: 100%;">
-    <figcaption>리뉴얼한 모습</figcaption>
-  </figure>
-</div>
+<figure>
+  <img src="https://github.com/user-attachments/assets/8e935c19-b46a-4b69-ac5e-87e76dcd6bf8">
+  <figcaption> 좌(spaceX공식 홈페이지의 모습) 우(리뉴얼한 모습)</figcaption>
+</figure>
 
 
 ---
