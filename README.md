@@ -14,14 +14,17 @@
 
 ## 3. 사이트 전체 모습 비교
 
-<figure>
-  <img src="https://github.com/user-attachments/assets/57213911-6556-4e59-907b-ef642cae7369">
-  <figcaption> spaceX공식 홈페이지의 모습</figcaption>
-</figure>
-<figure>
-  <img src="https://github.com/user-attachments/assets/34235ded-dc38-4fa0-8370-1d2b2e202f92">
-  <figcaption>리뉴얼한 모습</figcaption>
-</figure>
+<div style="display:flex;">
+  <figure>
+    <img src="https://github.com/user-attachments/assets/57213911-6556-4e59-907b-ef642cae7369">
+    <figcaption> spaceX공식 홈페이지의 모습</figcaption>
+  </figure>
+  <figure>
+    <img src="https://github.com/user-attachments/assets/34235ded-dc38-4fa0-8370-1d2b2e202f92">
+    <figcaption>리뉴얼한 모습</figcaption>
+  </figure>
+
+</div>
 
 
 ---
