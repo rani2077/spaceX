@@ -90,7 +90,7 @@ $('.link-singly').mouseenter(function(){
 - gsap의 scrollTrigger와 css속성중 clip-path를 이용하여 마우스 스크롤을 내림에 따라 반투명한 글씨를 흰색 글씨가 채워가도록 만들었다.
 
 
-![5](https://github.com/user-attachments/assets/79d7612d-0a08-4bbb-8264-a49faf9b0b16)
+클릭시 시연 영상 확인 [[https://example.com](https://example.com](https://github.com/user-attachments/assets/79d7612d-0a08-4bbb-8264-a49faf9b0b16))
 
     
 - clip-path란 요소의 일부분을 원하는대로 잘라낼 수 있는 css 속성이다. 수동으로 값을 조절하기에는 상당히 어려움이 있기 때문에 도움이 되는 사이트를 참고하며 이용하는것이 좋다.
